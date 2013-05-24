@@ -16,11 +16,12 @@ Inspired by the book ["Deploying Rails"](http://pragprog.com/book/cbdepra/deploy
 
 Building the virtual machine is this easy:
 
-    host $ git clone https://github.com/madebymarket/rails-starter-box.git
-    host $ git submodule init
-    host $ git submodule update
-    host $ cd rails-starter-box
-    host $ vagrant up
+    $ git clone https://github.com/madebymarket/rails-starter-box.git
+    
+    $ git submodule init
+    $ git submodule update
+
+    $ vagrant up
 
 If the base box is not present that command fetches it first. 
 
